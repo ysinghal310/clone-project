@@ -1,0 +1,57 @@
+.bar_wrapper {
+  position: relative;
+  background-color: var(--dark-blue);
+  top: 0;
+  padding: 8px;
+}
+
+.bar_container {
+  width: 90vw;
+  margin: 0px auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.bar_link {
+  margin-right: 20px;
+  padding: 16px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+}
+
+.bar_link > svg {
+  color: #fff;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.bar_link > a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  position: relative;
+}
+
+.bar_link > a:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  animation: dropdownBorderAnimation 0.3s forwards;
+}
+
+@keyframes dropdownBorderAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

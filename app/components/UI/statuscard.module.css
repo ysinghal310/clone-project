@@ -1,0 +1,27 @@
+.card {
+  padding: 1.25rem;
+  background-color: var(--text-color-blue);
+  border-radius: 1.25rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 1.75rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.subheading {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.right_Arrow_icon {
+  position: absolute;
+  color: #fff;
+  font-size: 2.5rem;
+  bottom: 8%;
+  right: 8%;
+}

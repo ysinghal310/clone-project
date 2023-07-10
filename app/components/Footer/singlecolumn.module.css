@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.heading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+  letter-spacing: 0.07rem;
+}
+
+.single_item {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: var(--bold-font);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  letter-spacing: 0.07rem;
+}
+
+.single_item:hover {
+  color: #ffffffdc;
+}

@@ -1,0 +1,23 @@
+.btn {
+  background-color: transparent;
+  font-size: 1.25rem;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px;
+  position: relative;
+}
+
+.btn > svg {
+  color: var(--primary-color);
+  position: absolute;
+  transition: 0.3s ease-in-out;
+  margin-left: 12px;
+}
+
+.btn:hover > svg {
+  position: absolute;
+  color: var(--primary-color);
+  transform: translateX(10px);
+}
